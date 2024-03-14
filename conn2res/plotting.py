@@ -318,7 +318,7 @@ def plot_reservoir_states(
     {fig_params}
     ax_params : list of dict
         list of dictionaries with keyword arguments for `matplotlib.pyplot.axes <https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.html#matplotlib.axes.Axes`__.
-        Values to set axes's properties, by default [{}] * 2.
+        Values to set axes's properties, by default [{{}}] * 2.
     {lg_params}
     {title}
     {show}
@@ -468,10 +468,10 @@ def plot_diagnostics(
     {fig_params}
     ax_params : list of dict
         list of dictionaries with keyword arguments for `matplotlib.pyplot.axes <https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.html#matplotlib.axes.Axes`__.
-        Values to set axes's properties, by default [{}] * 3.
+        Values to set axes's properties, by default [{{}}] * 3.
     lg_params : list of dict
         list of dictionaries with keyword arguments for `matplotlib.axes.Axes.legend <https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.legend.html`__. 
-        Values to set legend's properties, by default [{}] * 3.
+        Values to set legend's properties, by default [{{}}] * 3.
     {title}
     {show}
     {savefig}
